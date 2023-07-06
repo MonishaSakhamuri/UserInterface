@@ -13,67 +13,48 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 body {
   font-family: Arial, sans-serif;
 }
 
 .container {
-  max-width: 400px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 20px;
   background-color: #f9f9f9;
+  border: 1px solid #ccc;
   border-radius: 5px;
 }
 
 h1 {
   text-align: center;
-  color: #123456;
+  color: #333;
 }
 
-
+p {
+  margin-bottom: 10px;
+  color: #666;
+}
 
 input[type="text"],
 input[type="email"],
 input[type="password"] {
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #aaa;
+  border: 1px solid #ccc;
   border-radius: 5px;
 }
 
 button {
   padding: 10px;
-  background-color: #789abc;
-  color: white;
+  background-color: #007bff;
+  color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #56789a;
+  background-color: #0056b3;
 }
